@@ -1,0 +1,84 @@
+/* Body
+Pick a nice background-color, font-family, color, font-size and
+line-height for the <body>. Setting these font rules at the body-level
+ will apply them on all basic text tags (<p>, <li>, etc.).
+
+Headers
+Choose a nice color and font-family for headers (<h1>, <h2>, <h3>)
+Choose harmonious font-size and line-height for headers
+Hint: small headers are more elegant. If you check out any website
+(Medium, Airbnb, etc.), you'll see that the font-size of their headers
+ is quite small.
+Links
+Change the color & text-decoration of all the links
+Add hover effects to links using the pseudo-class a:hover. */
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color: #F7ECDE;
+}
+
+h1, h2, h3 {
+  font-family: 'Comfortaa', cursive;
+}
+
+h1 {
+  font-family: 'Play', sans-serif;
+  color: darkslategrey;
+  font-weight: bold;
+}
+
+h2 {
+  color: lightcoral;
+  font-size: 1.5em;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: rgb(202, 127, 40);
+  font-weight: 10;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #FF5403;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#icon-git {
+  font-size: 30px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.container {
+  width: 650px;
+  margin: 20px auto;
+}
+
+div {
+  display: block;
+}
+
+.card-beige {
+  background-color: #E9DAC1;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(153, 153, 143);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+#homepage-picture {
+  border-radius: 40%;
+}
